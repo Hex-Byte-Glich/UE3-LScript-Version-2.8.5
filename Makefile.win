@@ -1,0 +1,120 @@
+# Project: LScript
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = lapi.o lauxlib.o lbaselib.o lcode.o ldblib.o ldebug.o ldo.o ldump.o lfunc.o lgc.o linit.o liolib.o llex.o lmathlib.o lmem.o loadlib.o lobject.o lopcodes.o loslib.o lparser.o LScript.o lstate.o lstring.o lstrlib.o ltable.o ltablib.o ltm.o lundump.o lvm.o lzio.o print.o $(RES)
+LINKOBJ  = lapi.o lauxlib.o lbaselib.o lcode.o ldblib.o ldebug.o ldo.o ldump.o lfunc.o lgc.o linit.o liolib.o llex.o lmathlib.o lmem.o loadlib.o lobject.o lopcodes.o loslib.o lparser.o LScript.o lstate.o lstring.o lstrlib.o ltable.o ltablib.o ltm.o lundump.o lvm.o lzio.o print.o $(RES)
+LIBS =  -mwindows -lkernel32 -luser32 -lgdi32 -lwinspool -lcomdlg32 -ladvapi32 -lshell32 -lole32 -loleaut32 -luuid -lodbc32 -lodbccp32 --implib "./Release/LScript.lib" 
+INCS = 
+CXXINCS = 
+BIN  = LScript.exe
+CXXFLAGS = $(CXXINCS) -D__GNUWIN32__ -W -DWIN32 -DNDEBUG -D_WINDOWS -D_USRDLL -DLScript_EXPORTS -D_MBCS -fexceptions 
+CFLAGS = $(INCS) -D__GNUWIN32__ -W -DWIN32 -DNDEBUG -D_WINDOWS -D_USRDLL -DLScript_EXPORTS -D_MBCS -fexceptions 
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before LScript.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "LScript.exe" $(LIBS)
+
+lapi.o: lapi.c
+	$(CC) -c lapi.c -o lapi.o $(CFLAGS)
+
+lauxlib.o: lauxlib.c
+	$(CC) -c lauxlib.c -o lauxlib.o $(CFLAGS)
+
+lbaselib.o: lbaselib.c
+	$(CC) -c lbaselib.c -o lbaselib.o $(CFLAGS)
+
+lcode.o: lcode.c
+	$(CC) -c lcode.c -o lcode.o $(CFLAGS)
+
+ldblib.o: ldblib.c
+	$(CC) -c ldblib.c -o ldblib.o $(CFLAGS)
+
+ldebug.o: ldebug.c
+	$(CC) -c ldebug.c -o ldebug.o $(CFLAGS)
+
+ldo.o: ldo.c
+	$(CC) -c ldo.c -o ldo.o $(CFLAGS)
+
+ldump.o: ldump.c
+	$(CC) -c ldump.c -o ldump.o $(CFLAGS)
+
+lfunc.o: lfunc.c
+	$(CC) -c lfunc.c -o lfunc.o $(CFLAGS)
+
+lgc.o: lgc.c
+	$(CC) -c lgc.c -o lgc.o $(CFLAGS)
+
+linit.o: linit.c
+	$(CC) -c linit.c -o linit.o $(CFLAGS)
+
+liolib.o: liolib.c
+	$(CC) -c liolib.c -o liolib.o $(CFLAGS)
+
+llex.o: llex.c
+	$(CC) -c llex.c -o llex.o $(CFLAGS)
+
+lmathlib.o: lmathlib.c
+	$(CC) -c lmathlib.c -o lmathlib.o $(CFLAGS)
+
+lmem.o: lmem.c
+	$(CC) -c lmem.c -o lmem.o $(CFLAGS)
+
+loadlib.o: loadlib.c
+	$(CC) -c loadlib.c -o loadlib.o $(CFLAGS)
+
+lobject.o: lobject.c
+	$(CC) -c lobject.c -o lobject.o $(CFLAGS)
+
+lopcodes.o: lopcodes.c
+	$(CC) -c lopcodes.c -o lopcodes.o $(CFLAGS)
+
+loslib.o: loslib.c
+	$(CC) -c loslib.c -o loslib.o $(CFLAGS)
+
+lparser.o: lparser.c
+	$(CC) -c lparser.c -o lparser.o $(CFLAGS)
+
+LScript.o: LScript.cpp
+	$(CPP) -c LScript.cpp -o LScript.o $(CXXFLAGS)
+
+lstate.o: lstate.c
+	$(CC) -c lstate.c -o lstate.o $(CFLAGS)
+
+lstring.o: lstring.c
+	$(CC) -c lstring.c -o lstring.o $(CFLAGS)
+
+lstrlib.o: lstrlib.c
+	$(CC) -c lstrlib.c -o lstrlib.o $(CFLAGS)
+
+ltable.o: ltable.c
+	$(CC) -c ltable.c -o ltable.o $(CFLAGS)
+
+ltablib.o: ltablib.c
+	$(CC) -c ltablib.c -o ltablib.o $(CFLAGS)
+
+ltm.o: ltm.c
+	$(CC) -c ltm.c -o ltm.o $(CFLAGS)
+
+lundump.o: lundump.c
+	$(CC) -c lundump.c -o lundump.o $(CFLAGS)
+
+lvm.o: lvm.c
+	$(CC) -c lvm.c -o lvm.o $(CFLAGS)
+
+lzio.o: lzio.c
+	$(CC) -c lzio.c -o lzio.o $(CFLAGS)
+
+print.o: print.c
+	$(CC) -c print.c -o print.o $(CFLAGS)

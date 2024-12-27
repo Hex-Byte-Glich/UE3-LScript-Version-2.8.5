@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="LScript">
+</Property><Property Name="Projektmappendatei" Value="C:\Users\Ben\Desktop\Lscript-2.8.5-Workspace45\LScript.sln">
+</Property><Property Name="Benutzeroptionendatei" Value="C:\Users\Ben\Desktop\Lscript-2.8.5-Workspace45\LScript.suo">
+</Property><Property Name="Date" Value="Dienstag, 15. März 2011">
+</Property><Property Name="Time" Value="09:57">
+</Property><Property Name="Protokollnummer" Value="5">
+</Property></Properties><Event ErrorLevel="2" Project="" Source="LScript.sln" Description="Fehler beim Erstellen der Sicherungsdatei: C:\Users\Ben\Desktop\Lscript-2.8.5-Workspace45\LScript.sln.old">
+</Event><Event ErrorLevel="2" Project="" Source="LScript.suo" Description="Fehler beim Erstellen der Sicherungsdatei: C:\Users\Ben\Desktop\Lscript-2.8.5-Workspace45\LScript.suo.old">
+</Event><Event ErrorLevel="0" Project="LScript" Source="LScript.vcproj" Description="Converting project file 'C:\Users\Ben\Desktop\Lscript-2.8.5-Workspace45\LScript.vcproj'.">
+</Event><Event ErrorLevel="1" Project="LScript" Source="LScript.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="LScript" Source="LScript.vcproj" Description="MSB8012: $(TargetPath) ('C:\Users\Ben\Desktop\Lscript-2.8.5-Workspace45\.\Debug\LScript.dll') does not match the Linker's OutputFile property value '.\Debug/LScript.dll' ('C:\Users\Ben\Desktop\Lscript-2.8.5-Workspace45\Debug/LScript.dll') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="LScript" Source="LScript.vcproj" Description="MSB8012: $(TargetPath) ('C:\Users\Ben\Desktop\Lscript-2.8.5-Workspace45\.\Release\LScript.dll') does not match the Linker's OutputFile property value '.\Release/LScript.dll' ('C:\Users\Ben\Desktop\Lscript-2.8.5-Workspace45\Release/LScript.dll') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="LScript" Source="LScript.vcproj" Description="Done converting to new project file 'C:\Users\Ben\Desktop\Lscript-2.8.5-Workspace45\LScript.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="LScript" Source="LScript.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="LScript.sln" Description="Die Projektmappe wurde erfolgreich konvertiert.">
+</Event><Event ErrorLevel="3" Project="" Source="LScript.sln" Description="Converted">
+</Event></UpgradeLog>
